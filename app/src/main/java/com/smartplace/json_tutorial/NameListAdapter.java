@@ -1,7 +1,6 @@
 package com.smartplace.json_tutorial;
 
 import android.content.Context;
-import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -65,10 +64,8 @@ public class NameListAdapter extends BaseAdapter{
             holder = (Holder) v.getTag();
         }
 
-        Typeface font1 = Typeface.createFromAsset(mContext.getAssets(), "fonts/OpenSansLight.ttf");
         //set values to each view inside the item according to the array list current view
         holder.textView.setText(mNamesArray.get(i).getName()+" "+mNamesArray.get(i).getSurname());
-        holder.textView.setTypeface(font1);
 
         //Finally return the custom view
         return v;
