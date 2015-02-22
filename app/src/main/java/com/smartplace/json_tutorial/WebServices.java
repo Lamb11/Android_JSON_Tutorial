@@ -21,7 +21,7 @@ import java.io.IOException;
  */
 public class WebServices {
 
-    private static final String SERVER_URL = "http://ec2-54-148-58-107.us-west-2.compute.amazonaws.com/";
+    private static final String SERVER_URL = "http://ec2-54-148-203-144.us-west-2.compute.amazonaws.com/";
 
     private static final String PATH_GET_NAMES= "/welcome/getFullNameAndroid";
 
